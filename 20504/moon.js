@@ -25,7 +25,7 @@ console.log(year+""+month+""+day);
 //     }
 
 var xhr = new XMLHttpRequest();
-var url = 'https://apis.data.go.kr/B090041/openapi/service/RiseSetInfoService/getAreaRiseSetInfo'; /*URL*/
+var url = 'http://apis.data.go.kr/B090041/openapi/service/RiseSetInfoService/getAreaRiseSetInfo'; /*URL*/
 var queryParams = '?' + encodeURIComponent('ServiceKey') + '='+'e%2FZcj1njkGtbyWaWDyjoX242mVW8581Rwg%2B0MXSgteUEret3Xb3FYYHHkCaS8QiYSvpIIgAES8EEJ40IasVdnQ%3D%3D'; /*Service Key*/
 queryParams += '&' + encodeURIComponent('locdate') + '=' + encodeURIComponent(year+""+month+""+day); /**/
 queryParams += '&' + encodeURIComponent('location') + '=' + encodeURIComponent('안양'); /**/
